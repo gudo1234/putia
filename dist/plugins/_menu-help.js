@@ -44,7 +44,7 @@ const tagNames = {
 };
 
 const defaultMenu = {
-    before: `*Hola %tag 👋🏻*, como estas? soy %wm
+    before: `*Hola %tag 👋🏻*, como estas? soy *ᴢᴇɴᴛʀɪx-ʙᴏᴛ*
 
 *• Owner:* @edi
 *• Fecha:* %fecha
