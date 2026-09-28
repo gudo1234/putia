@@ -276,7 +276,7 @@ https://api.mitzuki.xyz/bots
                 // mandar aviso solo una vez por sesión/arranque manual
                 if (sock.isFromCommand && m && !announcedOpen.has(numero)) {
                     announcedOpen.add(numero);
-                    await sock.sendMessage(m.chat, { text: `*Conectado exitosamente con WhatsApp ✅*\n\n*💻 Bot:* +${numero}\n*👤 Dueño:* ${ownerName}\n*🛠️ Prefix:* .setprefix (Revisa tu prefijo actual o cámbialo)\n✅ Si el bot no responde en tu grupo, revisa que el prefijo esté bien o si hay un bot primario en el grupo con: .setprimary\n\n> *Unirte a nuestro canal para informarte de todas la Actualizaciónes/novedades sobre el bot*\nhttps://whatsapp.com/channel/0029VagJ2FF4CrfrS8BoLW2b` }, { quoted: m || null }).catch(() => { });
+                    await sock.sendMessage(m.chat, { text: `*Conectado exitosamente con WhatsApp ✅*\n\n*💻 Bot:* +${numero}\n*👤 Dueño:* ${ownerName}\n*🛠️ Prefix:* .setprefix (Revisa tu prefijo actual o cámbialo)\n✅ Si el bot no responde en tu grupo, revisa que el prefijo esté bien o si hay un bot primario en el grupo con: .setprimary\n\n> *Unirte a nuestro canal para informarte de todas la Actualizaciónes/novedades sobre el bot*\nhttps://whatsapp.com/channel/0029VaXHNMZL7UVTeseuqw3H` }, { quoted: m || null }).catch(() => { });
                     sock.isFromCommand = false;
                 }
                 const info = getLimitInfo();
