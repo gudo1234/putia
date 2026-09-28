@@ -19,6 +19,7 @@ export default {
     desc: "Descargar música o video de YouTube",
     tags: ["downloader"],
     limitPrem: true,
+    limit: 1,
 
     run: async ({ conn, m, text, prefijo, cmd }) => {
         if (!text)
